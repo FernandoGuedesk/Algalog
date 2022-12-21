@@ -7,7 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class AlgalogApiApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void main() {
+		AlgalogApiApplication.main(new String[] {});
 	}
 
 }
